@@ -1,3 +1,25 @@
+# Mental Health Models
+
+This repository contains generative and classification models for the mental-health and crisis-support domain, developed in collaboration with the [Sahar](https://sahar.org.il/) organization.
+
+The models are fine-tuned large language models and classifiers designed for emotional support and risk detection in Hebrew. They are trained on fully anonymized Sahar chat data, with the goal of identifying emotional states, distress patterns, and indicators of suicidality in real conversations.
+
+A complementary dataset used in this research, the [Help-Seeking-Corpus](https://resources.nnlp-il.mafat.ai/?search=help-seeking-corpus), is released independently and provides anonymized help-seeker/volunteer conversations (available in Hebrew and Arabic).
+
+Together, these models form a research-oriented foundation for building safe, empathetic, and culturally adapted AI systems for mental-health support.
+
+--- 
+
+## Model Weights Access
+The models are trained on unique datasets from Sahar.
+
+**To gain access to the model weights, you must fill out a request form.**  
+This ensures compliance with ethical guidelines & privacy requirements.
+
+🔗 [Request Model Weights Access Form](https://forms.gle/8YEmXQiSvHxEJsmw8)
+
+---
+
 This repository contains two complementary components:  
 
 1. **Classifiers** – Supervised models for detecting suicidality and subject prediction tasks using volunteer-anonymized mental health chat data.  
@@ -42,13 +64,7 @@ pip install -r requirements.txt
 ### GPU Support
 For optimal performance, ensure you have CUDA-compatible PyTorch installed if you plan to use GPU acceleration. The requirements.txt includes the basic PyTorch installation, but you may need to install the CUDA-specific version based on your system configuration.
 
-## Model Weights Access
-The models are trained on unique datasets from Sahar.
 
-➡️ **To gain access to the model weights, you must fill out a request form.**  
-This ensures compliance with ethical guidelines & privacy requirements.
-
-🔗 [Request Model Weights Access Form](https://docs.google.com/forms/d/e/1FAIpQLSd3z7Dso0sIjGbTtSYxv-Pwd336PUvzsJsma44nBNUSG74J1A/viewform?usp=sf_link)
 
 ---
 
@@ -166,6 +182,7 @@ After fine-tuning, you can run both **classifier** and **generative** models for
 - Use the fine-tuned Gemma-3 model with `.generate()`.  
 - The model produces an **empathetic, counselor-style response in Hebrew**.  
 - You can adjust generation parameters (`max_new_tokens`, `temperature`, `top_p`, `top_k`) for response length and creativity.  
+
 
 
 
