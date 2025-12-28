@@ -1,4 +1,0 @@
-## Training Process
-**Two fine-tuning approaches:**
-1. Standard fine-tuning, by adding "user" and "assistant" phases, and then apply gemma chat template
-2. Inject domain knowledge during fine-tuning and inference phases, domain knowledge is the the top 5 most relevant categories in the domain-expert-lexicon to the last user message, which are extracted by finding most similar phrases to the last user message and then extract their categories. Similarity between phrases and user message is calculated using [google/embeddinggemma-300m](https://huggingface.co/google/embeddinggemma-300m) model, which works in query document style.
