@@ -1,52 +1,9 @@
+# **Arabic Mental Health Models**
+
 The models in this repository include fine-tuned large language models and classifiers built to provide emotional support and detect mental crisis risk in Arabic conversations. Trained on anonymized chat data from [Sahar](https://sahar.org.il/) oraganization, they can identify indicators of suicidality, depression, self-harm, and sexual harm in real interactions.
 
 Together, these models offer a strong foundation for developing safe, empathetic, and culturally informed AI systems for mental health support.
 
-
-## ⚙️ Setup & Installation
-
-### Prerequisites
-Before setting up the repository, make sure you have the following installed:
-- **Python 3.9+**
-- **pip** (Python package manager) or **conda**
-- **CUDA-enabled GPU** (recommended for training large models)
-
-### Clone the Repository
-```bash
-git clone https://github.com/AyalSwaid/Mental-Health-models-Arabic.git
-cd Mental-Health-models-Arabic
-```
-
-### Install Dependencies
-
-We recommend creating a virtual environment before installing dependencies.
-
-```
-# Create virtual environment
-python -m venv venv
-
-# Activate environment
-# On Linux/Mac
-source venv/bin/activate
-# On Windows
-venv\Scripts\activate
-
-# Install required packages
-pip install -r requirements.txt
-```
-
-### GPU Support
-For optimal performance, ensure you have CUDA-compatible PyTorch installed if you plan to use GPU acceleration. The requirements.txt includes the basic PyTorch installation, but you may need to install the CUDA-specific version based on your system configuration.
-
-## Model Weights Access
-The models are trained on unique datasets from Sahar.
-
-➡️ **To gain access to the model weights, you must fill out a request form.**  
-This ensures compliance with ethical guidelines & privacy requirements.
-
-🔗 [Request Model Weights Access Form](https://forms.gle/8YEmXQiSvHxEJsmw8)
-
----
 
 ##  Models
 
@@ -146,6 +103,7 @@ Add system prompt / domain knowledge
 Use the fine-tuned Gemma-3 model with .generate().
 The model produces an empathetic, counselor-style response in Arabic.
 You can adjust generation parameters (max_new_tokens, temperature, top_p, top_k) for response length and creativity.
+
 
 
 
