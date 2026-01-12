@@ -4,6 +4,8 @@ This repository contains a collection of generative and classification models fo
 
 The models are fine-tuned large language models and classifiers trained on fully anonymized Sahar chat data. Their primary purpose is to identify emotional states, distress patterns, and suicidality in real conversations, and to generate empathetic and supportive responses.
 
+---
+
 ## Table of Contents
 - [Mental Health Models for Arabic and Hebrew](#mental-health-models-for-arabic-and-hebrew)
   - [Table of Contents](#table-of-contents)
@@ -15,6 +17,8 @@ The models are fine-tuned large language models and classifiers trained on fully
   - [🔑 Model Access](#-model-access)
   - [📂 Project Structure](#-project-structure)
 
+
+---
 
 ## 🤖 Models Overview
 
