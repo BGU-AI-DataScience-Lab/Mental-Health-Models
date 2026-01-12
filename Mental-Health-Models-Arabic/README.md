@@ -2,8 +2,11 @@
 
 The models in this repository include fine-tuned large language models and classifiers built to provide emotional support and detect mental crisis risk in Arabic conversations. Trained on anonymized chat data from [Sahar](https://sahar.org.il/) oraganization, they can identify indicators of suicidality, depression, self-harm, and sexual harm in real interactions.
 
+A complementary dataset used in this research, the [Help-Seeking-Corpus](https://resources.nnlp-il.mafat.ai/?search=help-seeking-corpus), is released independently and provides anonymized help-seeker/volunteer conversations (available in Hebrew and Arabic).
+
 Together, these models offer a strong foundation for developing safe, empathetic, and culturally informed AI systems for mental health support.
 
+---
 
 ##  Models
 
@@ -103,6 +106,7 @@ Add system prompt / domain knowledge
 Use the fine-tuned Gemma-3 model with .generate().
 The model produces an empathetic, counselor-style response in Arabic.
 You can adjust generation parameters (max_new_tokens, temperature, top_p, top_k) for response length and creativity.
+
 
 
 
