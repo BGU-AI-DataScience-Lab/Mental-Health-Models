@@ -2,7 +2,10 @@
 
 This repository contains a collection of generative and classification models for the mental health and crisis support domain, developed in collaboration with the [Sahar](https://sahar.org.il/) organization. The models are designed for emotional support and risk detection in both **Arabic** and **Hebrew**.
 
-The models are fine-tuned large language models and classifiers trained on fully anonymized Sahar chat data. Their primary purpose is to identify emotional states, distress patterns, and suicidality in real conversations, and to generate empathetic and supportive responses.
+The models are fine-tuned large language models and classifiers trained on fully anonymized Sahar chat data. Their primary purpose is to identify suicidality, depression, sexual-hurt, self-hurt in real conversations, and to generate empathetic and supportive responses.
+
+A complementary dataset used in this research, the [Help-Seeking-Corpus](https://resources.nnlp-il.mafat.ai/?search=help-seeking-corpus), is released independently and provides anonymized help-seeker/volunteer conversations (available in Hebrew and Arabic).
+
 
 ---
 
