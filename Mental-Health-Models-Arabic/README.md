@@ -59,6 +59,8 @@ and it does not takes into account the counselor messages.
 * We tokenize every batch
 * We train the model
 
+Note: DK AraBERT model have pre-training phase, [More details about training Classifiers here](https://github.com/BGU-AI-DataScience-Lab/Mental-Health-Models/tree/main/Mental-Health-Models-Arabic/Models/Classifiers/GSR%20Prediction%20-%20Help%20Seeker%20Only/Training%20Code)
+
 
 ## Fine-tuning the Generative Model
 All generative fine-tuning experiments in this repository are based on the Sahar progressive emotional support dataset.
@@ -90,6 +92,9 @@ This standardization ensures consistent model conditioning.
 
 * System prompt - inserting system prompt helps controlling the style of the model ouput. Used to insert domain knowledge as a part of the prompt too. 
 Note that it is included in the code (inference.ipynb and inference_with_lexicon.ipynb).
+
+[More details about Generative models training here](https://github.com/BGU-AI-DataScience-Lab/Mental-Health-Models/tree/main/Mental-Health-Models-Arabic/Models/Generation)
+
 ##  Inference
 
 After fine-tuning, you can run both **classifier** and **generative** models for predictions.
@@ -106,6 +111,7 @@ Add system prompt / domain knowledge
 Use the fine-tuned Gemma-3 model with .generate().
 The model produces an empathetic, counselor-style response in Arabic.
 You can adjust generation parameters (max_new_tokens, temperature, top_p, top_k) for response length and creativity.
+
 
 
 
